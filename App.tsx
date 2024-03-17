@@ -10,11 +10,11 @@ const VoiceCallPage: React.FC<VoiceCallPageProps> = (props) => {
     return (
         <View style={styles.container}>
             <ZegoUIKitPrebuiltCall
-                appID={1663266166}
-                appSign={"ea93135e6eaaf8a9a904cd181dbf5438cf321d7165da6372ef6af1cd98caf2a3"}
-                userID={121212} // userID can be something like a phone number or the user id on your own user system. 
-                userName={"user_12345"}
-                callID={"group123"} // callID can be any unique string. 
+                appID={appid}
+                appSign={"appsign"}
+                userID={userid} // userID can be something like a phone number or the user id on your own user system. 
+                userName={"username"}
+                callID={"callid"} // callID can be any unique string. 
 
                 config={{
                     // You can also use ONE_ON_ONE_VOICE_CALL_CONFIG/GROUP_VIDEO_CALL_CONFIG/GROUP_VOICE_CALL_CONFIG to make more types of calls.
